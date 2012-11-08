@@ -3,13 +3,13 @@
 	$this->Html->script(array('home.js'), array('inline' => false));
 ?>
 <div class="line_wrapper">
-	<div class="arrow grid_2 calign">
+	<div class="arrow grid_2 calign heightfix">
 		<div class="clickable prev_btn"><img src="/img/arrow-left.png" /></div>
 	</div>
-	<div class="grid_8 entries">
+	<div class="grid_8 entries heightfix">
 		<? echo $this->element('entry'); ?>
 	</div>
-	<div class="arrow grid_2 calign">
+	<div class="arrow grid_2 calign heightfix">
 		<div class="clickable next_btn"><img src="/img/arrow-right.png" /></div>
 	</div>
 </div>
