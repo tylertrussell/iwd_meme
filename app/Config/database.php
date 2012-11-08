@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'internal-db.s131342.gridserver.com',
 		'login' => 'db131342',
-		'password' => '$Tigers$_',
+		'password' => '!$_4skz823_$!',
 		'database' => 'db131342_iwd_meme',
 		'prefix' => '',
 	);
