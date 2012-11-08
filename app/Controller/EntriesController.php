@@ -70,8 +70,22 @@ class EntriesController extends AppController {
     function json_index() {
         $this->autoRender = false;
         $e = $this->Entry->find('all');
-        $ids = Set::extract('/Entry/id', $e);
-        echo json_encode($ids);
+        
+        $final_arr = array();
+        
+        foreach($e as $i) {
+            $final_arr[] = array(
+                'id' => $i['Entry']['id'],
+                'text' => $i['Entry']['text']
+            );
+        };
+        echo json_encode($final_arr);
+    }
+    
+    function alternate_view() {
+        $this->layout = 'ajax';
+        $e = $this->Entry->find('all');
+        $this->set('entries', $e);
     }
 
     function entry($id) {

@@ -1,9 +1,9 @@
 $(document).ready(
 
-	function() {
-		
-			$('#EntryText').select();
-		
-	}
+    function() {
 
-);
+        $('#EntryText').select();
+
+    }
+
+    );
