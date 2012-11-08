@@ -60,21 +60,23 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
+//		'datasource' => 'Database/Mysql',
+//		'persistent' => false,
+//		'host' => 'localhost',
+//		'login' => 'root',
+//		'password' => 'root',
+//		'database' => 'iwd_meme',
+//		'prefix' => '',
+		
+
+            
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'root',
-		'database' => 'iwd_meme',
+		'host' => 'internal-db.s131342.gridserver.com',
+		'login' => 'db131342',
+		'password' => '$Tigers$_',
+		'database' => 'db131342_iwd_meme',
 		'prefix' => '',
-		
-//		'driver' => 'mysql',
-//		'persistent' => false,
-//		'host' => 'internal-db.s131342.gridserver.com',
-//		'login' => 'db131342',
-//		'password' => '$Tigers$_',
-//		'database' => 'db131342_iwd_meme',
-//		'prefix' => '',
 	);
 
 	public $test = array(
