@@ -1,0 +1,152 @@
+2012-10-23 08:22:46 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 08:22:46 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 08:40:19 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/View/Pages/home.ctp, line 2]
+2012-10-23 08:40:19 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/tylertru...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/tylertru...', 2, Array)
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/tylertru...', 2, Array)
+#3 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-23 09:49:31 Error: [MissingActionException] Action EntriesController::index() could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-23 10:04:27 Error: [MissingActionException] Action EntriesController::index() could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-23 10:06:09 Error: Fatal Error (4): syntax error, unexpected T_ARRAY in [/Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/View/Entries/create.ctp, line 3]
+2012-10-23 10:06:09 Error: [FatalErrorException] syntax error, unexpected T_ARRAY
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/tylertru...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/tylertru...', 3, Array)
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/tylertru...', 3, Array)
+#3 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-23 10:09:34 Error: Fatal Error (4): syntax error, unexpected ';' in [/Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/View/Entries/create.ctp, line 1]
+2012-10-23 10:09:34 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/tylertru...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/tylertru...', 1, Array)
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/tylertru...', 1, Array)
+#3 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-23 10:25:26 Error: [MissingActionException] Action EntriesController::label=() could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-23 16:57:00 Error: [MissingActionException] Action EntriesController::prev() could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-23 16:57:01 Error: [MissingActionException] Action EntriesController::prev() could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-10-23 17:04:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 17:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-23 20:51:09 Error: [MissingControllerException] Controller class UsersController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-25 08:28:26 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-25 08:28:26 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:02:52 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:02:52 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:38 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:38 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:38 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:40 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:40 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:27:40 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:06 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:06 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:06 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:08 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:08 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:31:08 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:24 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:24 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:24 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:47 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:47 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 14:32:47 Error: [MissingControllerException] Controller class FontController could not be found.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-02 16:14:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/Controller/EntriesController.php, line 73]
+2012-11-02 16:14:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/tylertru...', 73)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/tylertru...', 73, Array)
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/tylertru...', 73, Array)
+#3 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-04 10:40:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/Model.php(3157): ConnectionManager::getDataSource('default')
+#3 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/Model.php(3179): Model->setSource('entries')
+#5 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Model/Model.php(2630): Model->getDataSource()
+#6 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/Controller/EntriesController.php(60): Model->find('neighbors', Array)
+#7 [internal function]: EntriesController->load('next', '36')
+#8 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(EntriesController), Array)
+#9 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EntriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/tylertrussell/Google Drive/School/FL2012/Interactivity and Web Design/Meme/site data/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
