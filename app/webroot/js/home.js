@@ -1,5 +1,6 @@
 function loadEntry(mode, id) {
     
+    console.log($('.entry_wrapper'));
     $('.entry_wrapper').fadeOut(300,
         function() {
             $.ajax({
@@ -25,16 +26,20 @@ $(document).ready(
         $('#alternate_view_btn').click(
             function() {
                 if(!inAlternateView) {
+                    console.log('in regular view when clicked');
                     inAlternateView = true;
                     playing = false;
                     $('.prev_btn, .next_btn').hide();
+                    htmlHolder = $('.entries').html();
                     $('.entries').load('/entries/alternate_view');
                     $('.entries').css('text-align', 'center');
-                    $('.entries').html('<h1>Loading...</h1>');
-                    htmlHolder = $('.entries').html();
+                    $('.entries').html('<h3>Loading...</h3>');
                 } else {
+                    console.log('in alternate view when clicked');
                     inAlternateView = false;
-                    $('.prev_btn', '.next_btn').show();
+                    playing = true;
+                    $('.prev_btn, .next_btn').show();
+                    $('.entries').html(htmlHolder);
                     loadEntry('next', currentEntryId)
                 }
             }
