@@ -25,6 +25,7 @@ $(document).ready(
         $('#alternate_view_btn').click(
             function() {
                 if(!inAlternateView) {
+                    inAlternateView = true;
                     playing = false;
                     $('.prev_btn, .next_btn').hide();
                     $('.entries').load('/entries/alternate_view');
@@ -32,10 +33,10 @@ $(document).ready(
                     $('.entries').html('<h1>Loading...</h1>');
                     htmlHolder = $('.entries').html();
                 } else {
+                    inAlternateView = false;
                     $('.prev_btn', '.next_btn').show();
                     loadEntry('next', currentEntryId)
                 }
-                inAlternateView = !inAlternateView;
             }
             );
 	
